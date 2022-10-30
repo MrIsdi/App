@@ -1,0 +1,103 @@
+.admin-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-width: 69px;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+
+    background: #00adf1;
+    color: #000000;
+}
+.admin-table{
+    margin-top: 16px;
+    padding: 10px;
+    font-size: 12px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    overflow-x: auto;
+}
+.admin-form{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+    background: #00adf1;
+}
+.admin-form h4{
+    color: #ffffff;
+}
+.admin-input{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 16px;
+}
+.admin-input select,
+.admin-input input{
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 12px;
+
+    outline: none;
+    border: none;
+}
+.admin-button{
+    margin: 16px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+.admin-button a,
+.admin-button button{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    text-decoration: none;
+}
+.admin-button a{
+    font-weight: bold;
+    color: #ca6c38;
+    border: 1px solid #ca6c38;
+}
+.admin-button button{
+    color: #ffffff;
+    background: #ca6c38;
+}
+.events-link{
+    margin: 16px 0;
+}
+.events-link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    background: #00adf1;
+    color: #ffffff;
+}

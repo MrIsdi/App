@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.lp-img{
+    width: 60px;
+}
+.lp-color-1{
+    color: #00adf1;
+}
+.lp-color-2{
+    color: #ffffff;
+}
+.lp-color-3{
+    color: #ca6c38;
+}
+.lp-bg-1{
+    background: #00adf1;
+}
+.lp-bg-2{
+    background: #ffffff;
+}
+.lp-outline-1{
+    border: 1px solid #00adf1;
+}
+.lp-outline-2{
+    border: 1px solid #ffffff;
+}
+.lp-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lp-theme-glass{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 1);
+}
+.lp-h-max{
+    height: 100vh;
+}
+.lp-home{
+    background: radial-gradient(farthest-corner at top left, #00adf1 0%, transparent 50%),
+            radial-gradient(farthest-corner at top right, #ca6c38 0%, transparent 50%),
+            radial-gradient(farthest-corner at bottom right, #00adf1 0%, transparent 50%),
+            radial-gradient(farthest-corner at bottom left, #ca6c38 0%, transparent 50%);
+}
+.lp-about{
+    background: radial-gradient(farthest-corner at top right, #00adf1 0%, transparent 50%),
+            radial-gradient(farthest-corner at top left, #ca6c38 0%, transparent 50%),
+            radial-gradient(farthest-corner at bottom left, #00adf1 0%, transparent 50%),
+            radial-gradient(farthest-corner at bottom right, #ca6c38 0%, transparent 50%);
+}
+.lp-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 225px;
+    margin-bottom: 1rem;
+    aspect-ratio: 2/2;
+    background: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .lp-group-card{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .lp-media{
+        font-size: 11px;
+    }
+    footer .row{
+        padding: 24px 0 !important;
+    }
+}

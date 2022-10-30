@@ -1,0 +1,37 @@
+.events{
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.event{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.even{
+    width: 280px;
+    aspect-ratio: 1/1;
+    margin: 16px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: linear-gradient(182deg, #ca6c38 20%, #00adf1 80%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+.even table{
+    padding: 10px;
+    width: 100%;
+}
+.even td{
+    height: 40px;
+}
+.even p{
+    font-weight: bold;
+}

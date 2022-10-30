@@ -1,0 +1,44 @@
+.edit-form{
+    width: 80%;
+    margin: 16px auto;
+}
+.edit-input{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 0 16px;
+}
+.edit-input label{
+    font-weight: bold;
+}
+.edit-input input{
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+
+    background: rgba(0, 173, 241, .3);
+}
+.edit-submit{
+    display: flex;
+    justify-content: space-between;
+}
+.edit-submit a,
+.edit-submit button{
+    display: flex;
+    align-items: center;
+
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+
+    background: rgba(0, 173, 241, .5);
+    color: #ffffff;
+
+    text-decoration: none;
+}
+.edit-submit button{
+    border: none;
+    background: rgba(0, 173, 241, 1);
+}

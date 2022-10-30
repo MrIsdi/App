@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.page-login{
+    background: conic-gradient(
+        #00ADF1 0deg, #00ADF1 90deg,
+        #CA6C38 90deg, #CA6C38 180deg,
+        #00ADF1 180deg, #00ADF1 270deg,
+        #CA6C38 270deg, #CA6C38 360deg);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-register{
+    background: conic-gradient(
+        #CA6C38 0deg, #CA6C38 90deg,
+        #00ADF1 90deg, #00ADF1 180deg,
+        #CA6C38 180deg, #CA6C38 270deg,
+        #00ADF1 270deg, #00ADF1 360deg);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-login{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    width: 300px;
+}
+.box-login img{
+    width: 100px;
+    margin: 16px auto;
+    display: block;
+}
+.input-login{
+    margin: auto;
+    width: 90%;
+}
+.input-login tr{
+    height: 56px;
+}
+.input-login input{
+    padding-left: 16px;
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.input-login input[type="email"]:invalid{
+    border: 1px solid red;
+}
+.button-login{
+    width: 90%;
+    margin: 16px auto;
+}
+.button-login button{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    background: #00ADF1;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
+.button-register{
+    width: 90%;
+    margin: 16px auto;
+}
+.button-register button{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    background: #CA6C38;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}
+.box-login a{
+    margin: 16px auto;
+    display: block;
+    text-align: center;
+    color: #000000;
+}
